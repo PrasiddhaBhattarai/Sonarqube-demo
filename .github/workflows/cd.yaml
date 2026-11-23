@@ -5,6 +5,8 @@ on:
 
 jobs:
   deploy:
+    environment:
+      name: dev
     runs-on: ubuntu-latest
     steps:
       - name: Deploy
